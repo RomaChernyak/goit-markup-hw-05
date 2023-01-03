@@ -740,7 +740,8 @@
     background-color: var(--iris-color);
 }
 
-.project-link:hover .overlay {
+.project-link:hover .overlay,
+.project-link:focus .overlay {
     transform: translate(0%);
     opacity: 1;
 }
